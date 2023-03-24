@@ -1,0 +1,12 @@
+This set of files can be used to host a basic static webpage.
+
+index.html, style.css, and error.html are boiler plate HTML files that are used for the main part of the site.
+
+The index.js file reads the contents of s3 buckets and displays images on the webpages.
+
+
+The other part of this project is the EC2 Linux instance that runs a scraper script every hour and uploads the files to S3.
+
+See CameraPyScraper for information on the EC2 scraper.
+
+ 
